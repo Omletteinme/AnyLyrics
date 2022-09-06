@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url('https://resi.ze-robot.com/dl/ri/river-into-sunset-1920%C3%971080.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+#title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 6px;
+    position: relative;
+    text-align: center;
+}
+
+#songSearch{
+    font-family: 'Kanit' sans-serif;
+    outline: 0;
+    border: 0;
+    width: 30vh;
+    padding: 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#searchbtn{
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 1000;
+    width: 20vh;
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#dataHolder{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70vh;
+    height: 50vh;
+    word-wrap:  break-word;
+    border-radius: 5px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-left: 8px;
+    overflow:auto;
+}
+
+#songImg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    top: 10px;
+
+}
+
+#songLyrics{
+    font-weight: 1000;
+    padding-top: 10px;
+    padding-right: 200px;
+}
+
+#github{
+    cursor: pointer;
+    font-size: 50px;
+    text-decoration:none;
+    color: inherit;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
